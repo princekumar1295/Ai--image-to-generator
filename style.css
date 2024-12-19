@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rajdhani", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(28, 29, 27);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 70%;
+    height: 90%;
+    background: linear-gradient(to top, rgba(51, 98, 136, 0.508), rgb(41, 116, 135));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px rgb(52, 88, 49), -2px -2px 10px rgb(118, 83, 118);
+    border: none;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 40px;
+    text-shadow: 2px 2px 10px rgb(133, 221, 10),-2px -2px 10px rgb(99, 52, 99);
+    border: none;
+}
+.input {
+width: 90%;
+height:30%;
+background: linear-gradient(to right, rgba(74, 61, 82, 0.508), rgb(8, 131, 207));
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-direction: column;
+color: aliceblue;
+font-size: 25px;
+border-radius: 20px;
+}
+#input{
+    width:70%;
+    height: 40px;
+    background-color: rgba(154, 190, 193, 0.68);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgb(81, 30, 162),2px -2px 10px rgb(192, 173, 173);
+   font-size: 20px;
+   color: aliceblue;
+   padding: 15px;
+   box-sizing: border-box;
+
+}
+#btn{
+    width: 200px;
+    height: 50px;
+    background-color: rgba(58, 76, 121, 0.68);
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    color: aliceblue;
+    box-shadow: 2px 2px 5px rgb(155, 42, 42), -2px -2px 10px rgb(145, 86, 86);
+    transition: all 0.3s;
+
+
+}
+#btn:hover{
+
+    background: transparent;
+
+
+}
+.output{
+    width: 90%;
+    height: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    background-color: rgb(49, 46, 51);
+}
+.image{
+    width: 70%;
+    height: 100%;
+   background: linear-gradient(to right ,rgb(3,19,22),rgb(160,161,235));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 20px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgb(65, 88, 98),2px -2px 10px rgb(92, 65, 65);
+}
+/* Corrected the CSS for the buttons container */
+.btnas {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border: none;
+    border-radius: 20px;
+}
+
+    #Download{
+        width: 200px;
+        height: 50px !important;
+        background-color: rgba(58, 121, 63, 0.68);
+        border: none;
+        border-radius: 0%;
+    }
+    #Download:hover{
+        background-color: transparent !important;
+        cursor: pointer;
+    }
+    #Reset{
+        width: 200px;
+        height: 50px !important;
+        background-color: rgba(58, 76, 121, 0.68);
+        border: none;
+        border-radius: 0%;
+    }
+    #Reset:hover{
+        background-color: transparent !important;
+        cursor: pointer;
+    }
